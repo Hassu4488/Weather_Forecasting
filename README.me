@@ -1,0 +1,62 @@
+Weather Forecasting for Karakoram Range
+Overview
+This repository contains the code for a weather forecasting project focused on the Karakoram Range. The project utilizes artificial intelligence, specifically Long Short-Term Memory (LSTM) networks, to predict temperature patterns in the region.
+
+Table of Contents
+Introduction
+Dependencies
+Usage
+Results
+File Structure
+License
+Introduction
+The Karakoram Range, known for its geopolitical and environmental significance, served as the focal point for this weather forecasting project. The objective was to leverage three decades of ground station temperature data to forecast weather patterns for the next 30 years. Advanced statistical and machine learning models, including LSTM, were employed to provide comprehensive insights into the climatic future of the Karakoram Range.
+
+Dependencies
+Python 3.x
+pandas
+numpy
+scikit-learn
+TensorFlow (2.x recommended)
+matplotlib
+seaborn
+Install the required dependencies using the following command:
+
+bash
+Copy code
+pip install -r requirements.txt
+Usage
+Data Loading:
+
+Load the climate data from the provided CSV file.
+Exploratory Data Analysis:
+
+Explore the data using visualizations to understand temperature trends.
+Data Preprocessing:
+
+Clean and scale the data for training the LSTM model.
+Model Training:
+
+Train the LSTM model using the preprocessed data.
+Model Evaluation:
+
+Evaluate the model using metrics such as Mean Squared Error (MSE) and R-squared.
+Future Predictions:
+
+Utilize the trained model to make future temperature predictions for the Karakoram Range.
+Visualization:
+
+Visualize the actual vs. predicted values and save predictions as CSV files.
+Results
+The model achieved a Mean Squared Error (MSE) of 0.006 and an R-squared (R2 score) of 0.835, indicating satisfactory predictive performance.
+
+Future predictions for temperature trends in the Karakoram Range for the next 10 years have been generated and saved as CSV files.
+
+File Structure
+/data: Contains the CSV file with climate data.
+/src: Source code files.
+/predictions: Directory for storing future temperature predictions.
+License
+This project is licensed under the MIT License.
+
+Feel free to reach out for any questions or clarifications.# Weather_Forecasting
